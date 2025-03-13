@@ -64,5 +64,14 @@ namespace Modul6_Kel31
             cmd.ExecuteNonQuery();
             DataShow();
         }
+
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            txtGenre.Text = null;
+            txtIdBuku.Text = null;
+            txtJudul.Text = null;
+            txtRilis.Text = null;
+        }
+
     }
 }
